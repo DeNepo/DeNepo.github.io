@@ -7,7 +7,7 @@ const withNextra = require("nextra")({
 
 module.exports = Object.assign(
   {
-    assetPrefix: isProd ? "/denepo.github.io/" : "",
+    assetPrefix: isProd ? "/" : "",
     images: {
       unoptimized: true,
     },
