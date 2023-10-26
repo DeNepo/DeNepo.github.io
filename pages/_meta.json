@@ -1,0 +1,11 @@
+{
+  "index": "Hello",
+  "study-lenses": "Study Lenses",
+  "curriculum-design": "Curriculum Design",
+  "lesson-materials": { "display": "hidden" },
+  "awesome-teaching": "Awesome Teaching",
+  "De Nepo on GitHub": {
+    "href": "https://github.com/DeNepo",
+    "newWindow": true
+  }
+}

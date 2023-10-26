@@ -1,0 +1,33 @@
+{
+  "name": "denepo.github.io",
+  "version": "0.0.1",
+  "description": "DeNepo home page",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "pre-deploy": "yarn build && yarn export && cp CNAME ./out/CNAME"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+  },
+  "author": "DeNepo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denepo/denepo.github.io"
+  },
+  "homepage": "https://github.com/denepo/denepo.github.io",
+  "dependencies": {
+    "next": "^13.0.6",
+    "nextra": "^2.7.1",
+    "nextra-theme-docs": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.10",
+    "typescript": "^4.9.3"
+  }
+}

@@ -1,0 +1,64 @@
+> Study code, not explanations.
+
+Study Lenses is a design principle for learning environments that prioritizes [code comprehension and investigation](./curriculum-design/prismm.mdx). The reasoning behind Study Lenses goes something like this:
+
+1. Explicitly teach learners how to study and understand code.
+2. Provide tools that support free code investigation.
+3. Write level-appropriate programs for your learners to study.
+4. Learners explore the code freely, with your study suggestions.
+
+Watch this little guide before reading on, the rest of this page will make more sense once you've seen Study Lenses in action:
+
+<br />
+
+<video controls>
+
+<source src="/study-lenses-guide.mp4" type="video/mp4"></source>
+
+<a href="/study-lenses-guide.mp4">Download the Guide</a>
+
+</video>
+
+## Peel-Away Design
+
+Think if Study Lenses as training wheels one a bike, not as a tricycle. Study Lenses adds layers of support _on top of_ existing development environments. As learners progress they should be able to peel away these layers to reveal a full-fledged programming environment.
+
+Lenses add news way of seeing, understand and explore a program. Lenses do not change the way your programming environment or runtime works. As an educator you can configure Study Lenses to suggest to suggest which lenses may be most helpful for a specific program, but learners are always free to ignore your suggestions and either use a lens of their choosing or ignore Study Lenses all together and simply run their code in its native runtime.
+
+## Accesible Authoring
+
+Three of the most important design constraints behind Study Lenses work together to ensure learners and educators can easily adapt and own their curriuclum:
+
+- **All code should be content:** A learner should be able to open any file of JavaScript code and use Study Lenses to understand it.
+- **Rely only on web-standard syntax & languages:** Programs written and configured to be used with Study Lenses should not rely on any non-standard syntax, every should be valid code or data that can be reused elsewhere.
+- **Content curation should use standard develpoment workflows:** All Study Lenses content should be hosted, developed, versioned, and distributed as a standard code base. A learner or educator with experience using Git, GitHub and an IDE should already have all the technical skills necessary to curate their own curriculum.
+
+## Implementations
+
+Study Lenses is an idea not an implementation, and because each programming language and each development environment is different, there can never be _one_ Study Lenses. You would need to design and build one implementation for each setting. Study Lenses could be implemented as an IDE plugin, as features in an existing learning environment, or as a stand-alone application.
+
+### For the Browser
+
+> source: [DeNepo/study-lenses](https://github.com/DeNepo/study-lenses) <br/>
+> install: `npm i -g study-lenses`
+
+This implementation is designed for learning JavaScript/HTML/CSS offline, so it is built around a localhost web server and opens code to study in a new browser tab. Learners can explore their code in different lenses by changing the page's URL queries (see the demo video at the top of this page). The "home base" lens (called `study`) is simply a code editor; because this implementation was designed for teaching web development, the learner is expected to practice using their browser's devtools to run, trace and debug their JavaScript. This implementation is designed around a plugin system, so developers are not limited to the lenses that ship with Study Lenses.
+
+You can try the [online Study Lenses demo](https://study-lenses-demo.onrender.com/?--defaults) (this may take a minute to start up if no one has used it in a while). Besides showcasing the Study Lenses learning environment, it also shows different ways you can organize programs for learners to explore.
+
+Or you can clone the [demo repository](https://github.com/colevandersWands/study-lenses-demo) and try the demo locally to save your changes.
+
+You can also install Study Lenses as a global NPM module and use it to open any folder of JavaScript/HTML/CSS, adding layers of study to any existing code:
+
+```
+$ npm install -g study-lenses
+$ cd <a-folder-of-js-html-css>
+$ study
+```
+
+### For VSCode
+
+> source: [yoshimalaise/Explorotron](https://github.com/yoshimalaise/Explorotron) <br/>
+> install: [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=YoshiMalaise.explorotron&ssr=false#qna)
+
+The extension allows learners to add new perspectives and layers of interactivity on top of existing JavaScript Code. Every lens focuses on a specific aspect of the code that has to be studied. Lenses follow CER best practices such as PRIMM, scaffolding and expertise reversal. For more information on the theory behind the extension we suggest reading our papers on Computing Education [[CSEDU](https://cris.vub.be/ws/portalfiles/portal/94803453/malaise_CSEDU2023.pdf), [Koli Calling](https://wise.vub.ac.be/publication/explorotron-ide-extension-guided-and-independent-code-exploration-and-learning)].
