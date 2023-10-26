@@ -7,7 +7,7 @@ const withNextra = require("nextra")({
 
 module.exports = Object.assign(
   {
-    assetPrefix: isProd ? "/" : "",
+    assetPrefix: isProd ? "/./" : "",
     images: {
       unoptimized: true,
     },
