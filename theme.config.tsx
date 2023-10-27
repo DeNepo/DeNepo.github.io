@@ -14,7 +14,7 @@ const config: DocsThemeConfig = {
   },
   logo: (
     <>
-      <img src="/denepo-logo.png" width="50em" height="50em" />
+      <img src="/denepo-logo-white.png" width="50em" height="50em" />
 
       <span style={{ marginLeft: ".5em", fontWeight: 800 }}>
         De Nepo: Open Ed

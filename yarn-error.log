@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/master/.nvm/versions/node/v16.2.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js run dev
+  /Users/master/.nvm/versions/node/v16.2.0/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js dev
 
 PATH: 
   /Users/master/go/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/master/anaconda3/bin:/Users/master/.rvm/gems/ruby-2.4.0/bin:/Users/master/.rvm/gems/ruby-2.4.0@global/bin:/Users/master/.rvm/rubies/ruby-2.4.0/bin:/Users/master/.nvm/versions/node/v16.2.0/bin:/Users/master/Documents/research/torch/install/bin/luajit:/Users/master/Documents/research/torch/install/bin:home/user/torch/install/bin:/Users/master/Documents/research/torch/install/bin/torch-activate:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/X11/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/master/miniconda3/bin:/Users/master/miniconda3/condabin:/Users/master/go/bin:/Users/master/.cargo/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/master/anaconda3/bin:/Users/master/.rvm/gems/ruby-2.4.0/bin:/Users/master/.rvm/gems/ruby-2.4.0@global/bin:/Users/master/.rvm/rubies/ruby-2.4.0/bin:/Users/master/.nvm/versions/node/v16.2.0/bin:/Users/master/Documents/research/torch/install/bin/luajit:/Users/master/Documents/research/torch/install/bin:home/user/torch/install/bin:/Users/master/Documents/research/torch/install/bin/torch-activate:/Users/master/.rvm/bin
@@ -15,9 +15,9 @@ Platform:
 
 npm manifest: 
   {
-    "name": "evancole.be",
+    "name": "denepo.github.io",
     "version": "0.0.1",
-    "description": "evan cole's home page",
+    "description": "DeNepo home page",
     "scripts": {
       "dev": "next dev",
       "build": "next build",
@@ -29,12 +29,12 @@ npm manifest:
       "type": "git",
       "url": "git+https://github.com/shuding/nextra-docs-template.git"
     },
-    "author": "Evan Cole",
+    "author": "DeNepo",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/colevandersWands/colevandersWands.github.io"
+      "url": "https://github.com/denepo/denepo.github.io"
     },
-    "homepage": "https://github.com/colevandersWands/colevandersWands.github.io",
+    "homepage": "https://github.com/denepo/denepo.github.io",
     "dependencies": {
       "next": "^13.0.6",
       "nextra": "^2.7.1",
