@@ -3,8 +3,9 @@
   "study-lenses": "Study Lenses",
   "curriculum-design": "Curriculum Design",
   "lesson-materials": { "display": "hidden" },
+  "web-development-curriculum": "Web Development Curriculum",
   "awesome-teaching": "Awesome Teaching",
-  "De Nepo on GitHub": {
+  "De Nepo on GitHub  ↗": {
     "href": "https://github.com/DeNepo",
     "newWindow": true
   }
