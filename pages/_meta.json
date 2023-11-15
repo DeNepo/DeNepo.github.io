@@ -1,5 +1,6 @@
 {
   "index": "Hello",
+  "design-principles": "Design Principles",
   "study-lenses": "Study Lenses",
   "curriculum-design": "Curriculum Design",
   "lesson-materials": { "display": "hidden" },
