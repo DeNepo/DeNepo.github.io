@@ -5,7 +5,10 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/denepo/denepo.github.io",
   },
-  docsRepositoryBase: "https://github.com/denepo/denepo.github.io",
+  docsRepositoryBase: "https://github.com/denepo/denepo.github.io/blob/main",
+  editLink: {
+    text: 'Edit this page on GitHub'
+  },
   footer: {
     text: "You can save any page as a PDF by opening it, ctr-p, then opening the document instead of printing it.",
   },
