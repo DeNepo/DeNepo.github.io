@@ -1,13 +1,17 @@
 {
-  "index": "Hello",
-  "design-principles": "Design Principles",
+  "index": "Software as a Second Language",
   "study-lenses": "Study Lenses",
-  "curriculum-design": "Curriculum Design",
-  "lesson-materials": { "display": "hidden" },
+  "learning-objectives": { "display": "hidden" },
+  "getting-started": { "display": "hidden" },
+  "resources": "Resources",
+  "design-principles": { "display": "hidden" },
   "web-development-curriculum": "Web Development Curriculum",
   "awesome-teaching": "Awesome Teaching",
   "De Nepo on GitHub  ↗": {
     "href": "https://github.com/DeNepo",
     "newWindow": true
-  }
+  },
+
+  "curriculum-design": { "display": "hidden" },
+  "lesson-materials": { "display": "hidden" }
 }

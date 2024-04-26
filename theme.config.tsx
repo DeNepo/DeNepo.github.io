@@ -10,7 +10,7 @@ const config: DocsThemeConfig = {
     text: "You can save any page as a PDF by opening it, ctr-p, then opening the document instead of printing it.",
   },
   sidebar: {
-    defaultMenuCollapseLevel: 1,
+    defaultMenuCollapseLevel: 2,
   },
   logo: (
     <>
